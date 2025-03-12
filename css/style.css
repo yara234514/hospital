@@ -87,10 +87,11 @@
 
 
 :root {
-    --main-text-color-- :#0b1525;
-    --main-background-color-- :#267cc7;
+    --main-text-color-- :#110101 ;
+    --main-background-color-- :#3572EF ;
+    --color-secound-- : #2e42c2;
     --secound-text-color-- : #43545f ;
-    --secound-background-color-- :#FBFBFB ;
+    --secound-background-color-- :#FFFFFF ;
     --color--:#FBFBFB;
     --border-color-- :rgba(0, 0, 0, 0.153);
 
@@ -170,7 +171,7 @@ a {
 
   .loading .prev-icon {
     position: fixed;
-    background-color: var(--main-background-color--);
+    background-color: var(--color-secound--);
     top: 0;
     left: 0;
     width: 50%;
@@ -180,7 +181,7 @@ a {
   }
   .loading .next-icon {
     position: fixed;
-    background-color: var(--main-background-color--);
+    background-color: var(--color-secound--);
     top: 0;
     right: 0;
     width: 50%;
@@ -284,6 +285,7 @@ a {
     padding: 1.25rem;
     z-index: 9;
     width: 100%;
+    background-color: var(--secound-background-color--);
 }
 
 
@@ -392,7 +394,7 @@ a {
 
 
 #home .carousel-text h1 span {
-    color: var(--main-background-color--);
+    color: var(--color-secound--)
 
 }
 
@@ -641,7 +643,7 @@ transform: translateY(-20px)
 
 
 #info {
-    background:linear-gradient(#267cc7c2 , #267cc7c2) ,url(../img/blockqoute-bg.jpg) center;
+    background:linear-gradient( #2e42c2ac, #2e42c29b) ,url(../img/blockqoute-bg.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
      min-height: 30vh; 
@@ -705,7 +707,7 @@ transform: translateY(-20px)
 }
 #we .text h3::after {
     content: '';
-    background-color: var(--main-background-color--);
+    background-color: var(--color-secound--);
     width: 50px;
     height: 5px;
     position: absolute;
@@ -733,7 +735,7 @@ transform: translateY(-20px)
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-background-color--);
+    background-color: var(--color-secound--);
 }
 
 
@@ -760,7 +762,7 @@ transform: translateY(-20px)
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-background-color--);
+    background-color: var(--color-secound--);
     animation: shadow 3s infinite;
 }
 
@@ -980,7 +982,7 @@ transform: translateY(-20px)
 
 #services  .content i {
     font-size: 50px;
-    color: var(--main-background-color--);
+    color: var(--color-secound--);
 }
 
 #services  .content h4 {
@@ -988,7 +990,7 @@ transform: translateY(-20px)
 }
 
 #services  .content h4:hover {
-    color: var(--main-background-color--);
+    color: var(--color-secound--);
 }
 
 /* ================end services==================== */
